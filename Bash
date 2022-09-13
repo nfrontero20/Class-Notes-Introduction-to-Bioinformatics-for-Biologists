@@ -8,18 +8,4 @@ this is code that I am going to run
 
 * `-e`: recognizes escape characters.  
 
-
-UNIX Introduction 1
-===================
-
-
-
-
-1.1 The Linux Terminal
----------------------------------
-
-The Linux terminal is a text-based interface used to control a Linux computer. It's just one of the many tools provided to Linux users for accomplishing any given task, but it's widely considered the most efficient method available.
-
-<br />
-
-### the shell
+`sleep`: pauses for the number of seconds that you indicate in the sleep command.  Ex. `sleep 2`.  There is a 2 second pause after the time when someone puts the information and you display their answer.
