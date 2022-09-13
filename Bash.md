@@ -13,4 +13,5 @@ this is code that I am going to run
 `test` command and `[[]]` are interchangeable (I think):
 
 `test -d code` tests if a directory exists
-if [[ -d code ]];then echo "directory exists";fi
+
+`if [[ -d code ]];then echo "directory exists";fi`
