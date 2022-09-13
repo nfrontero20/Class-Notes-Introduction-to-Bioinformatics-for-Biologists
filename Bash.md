@@ -15,3 +15,8 @@ this is code that I am going to run
 `test -d code` tests if a directory exists
 
 `if [[ -d code ]];then echo "directory exists";fi`
+
+`colors=(red blue green)`
+`echo {colors[0]}`
+`echo ${colors[0]}`
+`echo ${colors[*]}`
