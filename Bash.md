@@ -13,11 +13,11 @@ Commands contain 3 parts:
 
 ### Running List of Commands
 
-* `clear`: Clears the console.
-* `date`: Prints the date.
-* `echo`: Prints any phrase to the console.
-* `ls`: Short for "list".  Prints the contents of the working directory, but only the names.
-*   
+* `clear`:  Clears the console.
+* `date`:  Prints the date.
+* `echo`:  Prints any phrase to the console.
+* `ls`:  Short for "list".  Prints the contents of the working directory, but only the names.
+  - `-l`:  Short for "long format".  Provides additional columns, from left to right, file permissions, owner, group, size (bytes), last modification time.
 
 
 
