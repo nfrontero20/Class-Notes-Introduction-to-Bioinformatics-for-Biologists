@@ -16,8 +16,10 @@ Commands contain 3 parts:
 * `clear`:  Clears the console.
 * `date`:  Prints the date.
 * `echo`:  Prints any phrase to the console.
-* `ls`:  Short for "list".  Prints the contents of the working directory, but only the names.
+* `ls`:  Short for "list".  Prints the names of the contents of the working directory, and does not print hidden files (whose names start with a `.`).  
   - `-l`:  Short for "long format".  Provides additional columns, from left to right, file permissions, owner, group, size (bytes), last modification time.
+  - `-h`: Provides unit suffixes for file sizes.
+  - `-a`: Prints hidden files that start with a `.`.  **Caution:** Do not change these files!
 
 
 
