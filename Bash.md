@@ -1,8 +1,21 @@
-### Test
+### Commands
+
+Commands contain 3 parts: 
 
 ```
-this is code that I am going to run 
+[command] [options] [arguments]
 ```
+
+**Options:** Options tweak the behavior of the command.  Represented by a hyphen `-`.
+**Arguments:** Arguments can be files, raw data, or other options that the command requires. 
+
+
+
+
+
+
+
+### Other
 
 `echo`: 
 
