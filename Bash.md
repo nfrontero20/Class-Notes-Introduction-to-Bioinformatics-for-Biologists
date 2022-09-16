@@ -15,11 +15,15 @@ Commands contain 3 parts:
 * *Absolute path:* The absolute path always starts from the root directory (`/`).  (Ex.) `/Users/nicolefrontero`.
 * *Relative path:* The relative path starts from the current directory
 
-### Creating and Modifying Files
+### Creating, Modifying, and Deleting Files and Directories
 * `touch`: (Ex.) `touch my_file.txt`.
 * `echo "statement" > file_name.extension`: This is called *output redirection*.  The output from a command using echo like `echo "My first name is Nicole"` usually gets printed to the terminal.  However, you can redirect the output using `>` and save the output `"My first name is Nicole"` to a file.  (Ex.) `echo "My first name is Nicole > my_name.txt"`.
 * `echo "Statement to append" >> file_name.extension`: You can append a statement to a file through using `echo` and `>>`.  (Ex.) `echo "My last name is Frontero >> my_name.txt"`.
 * `nano file_name.extension`: Creates a file using the editor `nano`.
+* `rm`: Stands for "remove".
+  - `rm`: Can be used to remove a file.
+  - `rm -r`: can be used to *recursively* remove all of the files within a directory.  Must use the `-r` option to get rid of a directory.
+* `rmdir`: Stands for "remove directory".  Can only be used to remove empty directories.
 
 ### Running List of Commands
 
