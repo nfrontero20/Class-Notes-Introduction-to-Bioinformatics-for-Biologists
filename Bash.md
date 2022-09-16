@@ -1,7 +1,6 @@
 ### General Structure of Commands
 
 Commands contain 3 parts: 
-
 ```
 [command] [options] [arguments]
 ```
@@ -30,7 +29,8 @@ Commands contain 3 parts:
 * `mkdir [directory_name]`: Short for "make directory".  Creates a directory.  
 * `cd [file_path]`: Short for "change directory".  Changes the current working directory according to the new file path given.
 * `pwd:` Short for "print working directory".
-
+* `touch [file_name.extension]:` Creates a file.
+* 
 
 
 
