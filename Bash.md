@@ -9,7 +9,13 @@ Commands contain 3 parts:
 
 * *Arguments:* Arguments can be files, raw data, or other options that the command requires.
 
-### 
+### Directories
+* `/`: Stands for the *root*.
+* `~`: Stands for the *home directory*.  The home directory is the default working directory when a user logs in.
+* `.`: Stands for *current directory* (also known as *working directory*). 
+* `..`: Stands for *parent of the current directory*.
+* *Absolute path:* The absolute path always starts from the root directory (`/`).  (Eg.) `/Users/nicolefrontero`.
+* *Relative path:* The relative path starts from the current directory
 
 ### Running List of Commands
 
@@ -20,8 +26,10 @@ Commands contain 3 parts:
   - `-l`:  Short for "long format".  Provides additional columns, from left to right, file permissions, owner, group, size (bytes), last modification time.
   - `-h`: Provides unit suffixes for file sizes.
   - `-a`: Prints hidden files that start with a `.`.  **Caution:** Do not change these files!
+  - *It's common to see combinations of `-l` and `-a` or `-h`, like `-lh` and `-la`.*
 * `mkdir [directory_name]`: Short for "make directory".  Creates a directory.  
 * `cd [file_path]`: Short for "change directory".  Changes the current working directory according to the new file path given.
+* `pwd:` Short for "print working directory".
 
 
 
