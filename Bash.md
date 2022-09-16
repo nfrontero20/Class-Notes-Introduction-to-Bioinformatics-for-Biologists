@@ -17,8 +17,8 @@ Commands contain 3 parts:
 
 ### Creating and Modifying Files
 * `touch`: (Ex.) `touch my_file.txt`.
-* `echo "statement" > file_name.extension`: This is called *output redirection*.  The output from a command using echo like `echo "My first name is Nicole"` usually gets printed to the terminal.  However, you can redirect the output using `>` and save the output `"My first name is Nicole"` to a file.  (Ex.) `echo "My first name is Nicole > my_name.txt".
-* `echo "Statement to append" >> file_name.extension`: You can append a statement to a file through using `echo` and `>>`.  (Ex.) "My last name is Frontero >> my_name.txt".
+* `echo "statement" > file_name.extension`: This is called *output redirection*.  The output from a command using echo like `echo "My first name is Nicole"` usually gets printed to the terminal.  However, you can redirect the output using `>` and save the output `"My first name is Nicole"` to a file.  (Ex.) `echo "My first name is Nicole > my_name.txt"`.
+* `echo "Statement to append" >> file_name.extension`: You can append a statement to a file through using `echo` and `>>`.  (Ex.) `echo "My last name is Frontero >> my_name.txt"`.
 * `nano file_name.extension`: Creates a file using the editor `nano`.
 
 ### Running List of Commands
