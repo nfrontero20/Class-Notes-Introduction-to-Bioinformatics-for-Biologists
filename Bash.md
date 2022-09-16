@@ -44,6 +44,11 @@ Commands contain 3 parts:
   - Create a file using output redirection: (Ex.) `echo "My first name is Nicole" > my_name.txt`.
   - Append a statement to a pre-existing file: (Ex.) `echo "My last name is Frontero" >> my_name.txt`.
 * `cat`: Used to print out the contents of a file to the terminal.  (Ex.) `cat my_name.txt` would print out the contents of `my_name.txt` to the terminal.
+* `less:` Used to print out the contents of a file to the terminal, but the file's contents are only shown one page at a time.  Press "q" on the keyboard to get out of seeing the different pages and return to being able to type in the terminal.
+* `head:` Used to print out the first 10 lines of a file to the terminal.
+  - `-[number]`: An option can be used with `head` to indicates how many lines of a file you want to show.  (Ex.) `head -20 science.txt` prints out the first 20 lines of the file.  
+* `tail:` Used to print out the last 10 lines of a file to the terminal.
+  - `-[number]`: An option can be used with `tail` to indicates how many of the final lines of a file you want to show.  (Ex.) `tail -20 science.txt` prints out the last 20 lines of the file. 
 * `cp` [file_path/file_name.extension] [new_location_path]: Copies a file from one place to another.  (Ex.) If you have the file `science.txt` in the Desktop of your computer and you want to move it to your current directory (represented by `.`, you would write something like this (what you actually write depends upon the paths on your computer): `cp ~/Desktop/science.txt .`.
   - `-r`: Required when copying a directory/folder. (Ex.) `cp -r test_folder ~/Desktop/bioinformatic_course`.
 * `mv [file 1] [file 2]`: Short for "move".  Can be used to move a file to a different directory but can also be used as a way to rename a file by moving that file to the same directory but giving it a different name.
