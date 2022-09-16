@@ -42,7 +42,9 @@ Commands contain 3 parts:
 * `cat`: Used to print out the contents of a file to the terminal.  (Ex.) `cat my_name.txt` would print out the contents of `my_name.txt` to the terminal.
 * `cp` [file_path/file_name.extension] [new_location_path]: Copies a file from one place to another.  (Ex.) If you have the file `science.txt` in the Desktop of your computer and you want to move it to your current directory (represented by `.`, you would write something like this (what you actually write depends upon the paths on your computer): `cp ~/Desktop/science.txt .`.
   - `-r`: Required when copying a directory/folder. (Ex.) `cp -r test_folder ~/Desktop/bioinformatic_course`.
-
+* `mv [file 1] [file 2]`: Short for "move".  Can be used to move a file to a different directory but can also be used as a way to rename a file by moving that file to the same directory but giving it a different name.
+  - *Using `mv` to move a file to a new location:* (Ex.) `mv science.txt ../`.  This would move `science.txt` to the parent directory.
+  - *Using `mv` to rename a file:* `mv science.txt science_is_cool.txt`.  This renames `science.txt` to `science_is_cool.txt`.
 
 
 
