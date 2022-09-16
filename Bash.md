@@ -1,4 +1,4 @@
-### Commands
+### General Structure of Commands
 
 Commands contain 3 parts: 
 
@@ -8,9 +8,17 @@ Commands contain 3 parts:
 
 * **Options:** Options tweak the behavior of the command.  Represented by a hyphen `-`.
 
-* **Arguments:** Arguments can be files, raw data, or other options that the command requires. 
+* **Arguments:** Arguments can be files, raw data, or other options that the command requires.
 
+### 
 
+### Running List of Commands
+
+* `clear`: Clears the console.
+* `date`: Prints the date.
+* `echo`: Prints any phrase to the console.
+* `ls`: Short for "list".  Prints the contents of the working directory, but only the names.
+*   
 
 
 
