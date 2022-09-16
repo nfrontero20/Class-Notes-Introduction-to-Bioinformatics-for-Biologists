@@ -26,7 +26,6 @@ Commands contain 3 parts:
 * `rmdir`: Stands for "remove directory".  Can only be used to remove empty directories.
 
 ### Running List of Commands
-
 * `clear`:  Clears the console.
 * `date`:  Prints the date.
 * `echo`:  Prints any phrase to the console.
@@ -55,7 +54,11 @@ Commands contain 3 parts:
 * `mv [file 1] [file 2]`: Short for "move".  Can be used to move a file to a different directory but can also be used as a way to rename a file by moving that file to the same directory but giving it a different name.
   - *Using `mv` to move a file to a new location:* (Ex.) `mv science.txt ../`.  This would move `science.txt` to the parent directory.
   - *Using `mv` to rename a file:* `mv science.txt science_is_cool.txt`.  This renames `science.txt` to `science_is_cool.txt`.
-
+* `grep`:
+  - `-i`: Not sure, but probably stands for **i**gnore case.  This option allows you to search for a term and not worry about if it's capitalized or not in the file.
+  - `n`: Not sure, but probably stands for line **n**umber.  This option provides the line numbers for the lines where the pattern occurs in the file.
+  - `-v`: No idea what this stands for.  This option provides the lines that *do not* contain the searched for pattern.  
+  - `-c`: Not sure, but probably stands for **c**ount.  This option returns the number of lines that contain searched for pattern. 
 
 
 ### Other
