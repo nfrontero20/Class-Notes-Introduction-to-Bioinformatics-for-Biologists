@@ -31,9 +31,7 @@ Commands contain 3 parts:
 
 ### Running List of Commands
 * `clear`:  Clears the console.
-
 * `date`:  Prints the date.
-
 * `echo`:  Prints any phrase to the console.
 * `ls`:  Short for "list".  Prints the names of the contents of the working directory, and does not print hidden files (whose names start with a `.`).  
   - `-l`:  Short for "long format".  Provides additional columns, from left to right, file permissions, owner, group, size (bytes), last modification time.
