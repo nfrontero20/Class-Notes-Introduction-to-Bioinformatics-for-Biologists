@@ -5,10 +5,9 @@ Commands contain 3 parts:
 ```
 [command] [options] [arguments]
 ```
+* *Options:* Options tweak the behavior of the command.  Represented by a hyphen `-`.
 
-* **Options:** Options tweak the behavior of the command.  Represented by a hyphen `-`.
-
-* **Arguments:** Arguments can be files, raw data, or other options that the command requires.
+* *Arguments:* Arguments can be files, raw data, or other options that the command requires.
 
 ### 
 
