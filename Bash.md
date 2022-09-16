@@ -20,6 +20,8 @@ Commands contain 3 parts:
   - `-l`:  Short for "long format".  Provides additional columns, from left to right, file permissions, owner, group, size (bytes), last modification time.
   - `-h`: Provides unit suffixes for file sizes.
   - `-a`: Prints hidden files that start with a `.`.  **Caution:** Do not change these files!
+* `mkdir [directory_name]`: Short for "make directory".  Creates a directory.  
+* `cd [file_path]`: Short for "change directory".  Changes the current working directory according to the new file path given.
 
 
 
