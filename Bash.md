@@ -5,7 +5,6 @@ Commands contain 3 parts:
 [command] [options] [arguments]
 ```
 * *Options:* Options tweak the behavior of the command.  Represented by a hyphen `-`.
-
 * *Arguments:* Arguments can be files, raw data, or other options that the command requires.
 
 ### Directories
@@ -13,8 +12,12 @@ Commands contain 3 parts:
 * `~`: Stands for the *home directory*.  The home directory is the default working directory when a user logs in.
 * `.`: Stands for *current directory* (also known as *working directory*). 
 * `..`: Stands for *parent of the current directory*.
-* *Absolute path:* The absolute path always starts from the root directory (`/`).  (Eg.) `/Users/nicolefrontero`.
+* *Absolute path:* The absolute path always starts from the root directory (`/`).  (Ex.) `/Users/nicolefrontero`.
 * *Relative path:* The relative path starts from the current directory
+
+### Creating Files
+* `touch`: (Ex.) `touch my_file.txt`.
+* *Output redirection* using `echo` and `>`: The output from a command using echo like `echo "My name is Nicole"` usually gets printed to the terminal.  However, you can redirect the output using `>` and save the output `"My name is Nicole"` to a file.  (Ex.) `echo "My name is Nicole > my_name.txt".
 
 ### Running List of Commands
 
@@ -30,7 +33,10 @@ Commands contain 3 parts:
 * `cd [file_path]`: Short for "change directory".  Changes the current working directory according to the new file path given.
 * `pwd:` Short for "print working directory".
 * `touch [file_name.extension]:` Creates a file.
-* 
+* `echo`: Can be used to...
+  - Print a statement to the terminal: (Ex.) `echo "My name is Nicole"`
+  - Create a file using output redirection: (Ex.) `echo "My name is Nicole" > my_name.txt`
+* `cat`: Used to print out the contents of a file to the terminal.  (Ex.) `cat my_name.txt` would print out the contents of `my_name.txt` to the terminal.
 
 
 
