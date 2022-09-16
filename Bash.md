@@ -25,6 +25,10 @@ Commands contain 3 parts:
   - `rm -r`: can be used to *recursively* remove all of the files within a directory.  Must use the `-r` option to get rid of a directory.
 * `rmdir`: Stands for "remove directory".  Can only be used to remove empty directories.
 
+### Wildcards
+* `*`: Represents any number of characters that are wildcards.
+* `?`: Represents only one wildcard character.
+
 ### Running List of Commands
 * `clear`:  Clears the console.
 * `date`:  Prints the date.
@@ -37,14 +41,14 @@ Commands contain 3 parts:
 * `mkdir [directory_name]`: Short for "make directory".  Creates a directory.  
 * `cd [file_path]`: Short for "change directory".  Changes the current working directory according to the new file path given.
 * `pwd:` Short for "print working directory".
-* `touch [file_name.extension]:` Creates a file.
+* `touch [file_name.extension]:` Creates a file, or multiple files, depending upon how many you list.  (Ex.) `touch file1 file2` creates two files, `file` and `file2`.
 * `echo`: Can be used to...
   - Print a statement to the terminal: (Ex.) `echo "My first name is Nicole"`.
   - Create a file using output redirection: (Ex.) `echo "My first name is Nicole" > my_name.txt`.
   - Append a statement to a pre-existing file: (Ex.) `echo "My last name is Frontero" >> my_name.txt`.
 * `cat`: Used to print out the contents of a file to the terminal.  (Ex.) `cat my_name.txt` would print out the contents of `my_name.txt` to the terminal.
 * `less:` Used to print out the contents of a file to the terminal, but the file's contents are only shown one page at a time.  Press "q" on the keyboard to get out of seeing the different pages and return to being able to type in the terminal.  Can also be used to do a simple pattern search in a file.  
-*   - To do a simple pattern search, type `less [file_name.file_extension]`.  Then, type `/[search_term]`.  The desired search term will be highlighted if it appears in the document.  You can skip to the next occurrence of the search term by pressing "n".  To exit, press "q".
+  - To do a simple pattern search, type `less [file_name.file_extension]`.  Then, type `/[search_term]`.  The desired search term will be highlighted if it appears in the document.  You can skip to the next occurrence of the search term by pressing "n".  To exit, press "q".
 * `head:` Used to print out the first 10 lines of a file to the terminal.
   - `-[number]`: An option can be used with `head` to indicates how many lines of a file you want to show.  (Ex.) `head -20 science.txt` prints out the first 20 lines of the file.  
 * `tail:` Used to print out the last 10 lines of a file to the terminal.
@@ -54,12 +58,16 @@ Commands contain 3 parts:
 * `mv [file 1] [file 2]`: Short for "move".  Can be used to move a file to a different directory but can also be used as a way to rename a file by moving that file to the same directory but giving it a different name.
   - *Using `mv` to move a file to a new location:* (Ex.) `mv science.txt ../`.  This would move `science.txt` to the parent directory.
   - *Using `mv` to rename a file:* `mv science.txt science_is_cool.txt`.  This renames `science.txt` to `science_is_cool.txt`.
-* `grep`:
-  - `-i`: Not sure, but probably stands for **i**gnore case.  This option allows you to search for a term and not worry about if it's capitalized or not in the file.
-  - `n`: Not sure, but probably stands for line **n**umber.  This option provides the line numbers for the lines where the pattern occurs in the file.
+* `grep [options] [search_term] [file_name.file_extension]`:
+  - `-i`: Not sure, but probably stands for **ignore** case.  This option allows you to search for a term and not worry about if it's capitalized or not in the file.
+  - `n`: Not sure, but probably stands for line **number**.  This option provides the line numbers for the lines where the pattern occurs in the file.
   - `-v`: No idea what this stands for.  This option provides the lines that *do not* contain the searched for pattern.  
-  - `-c`: Not sure, but probably stands for **c**ount.  This option returns the number of lines that contain searched for pattern. 
-
+  - `-c`: Not sure, but probably stands for **count**.  This option returns the number of lines that contain searched for pattern. 
+* `wc [file_name.file_extension]`: Stands for "word count". Returns, from left to right, the number of *lines*, *words*, and *characters*.
+  - `-l`: This option results in only the number of lines being printed.
+  - `-w`: This option results in only the number of words being printed.
+  - `-c`: This option results in only the number of chatacters being printed.
+* 
 
 ### Other
 
