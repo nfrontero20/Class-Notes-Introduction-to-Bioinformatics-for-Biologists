@@ -77,7 +77,8 @@ Commands contain 3 parts:
   - `-l`: This option results in only the number of lines being printed.
   - `-w`: This option results in only the number of words being printed.
   - `-c`: This option results in only the number of chatacters being printed.
-* `sort`: Sorts the contents of a file
+* `sort`: Sorts the contents of a file.
+* `|`: Referred to as a "pipe".  (Ex.) `head list1 | sort > sorted_list1`
 
 ### Other
 
