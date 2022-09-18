@@ -29,6 +29,11 @@ Commands contain 3 parts:
 * `*`: Represents any number of characters that are wildcards.
 * `?`: Represents only one wildcard character.
 
+### Standard Input, Output and Error
+* Channel 0 - Standard Input: The input that the process gets. This oftentimes comes from the keyboard.
+* Channel 1 - Standard Output: Where programs print their output from the process.  By default, this is the terminal window.
+* Channel 2 - Standard Error: Where programs print any errors from the process.  By default, this is the terminal window. 
+
 ### Running List of Commands
 * `clear`:  Clears the console.
 * `date`:  Prints the date.
