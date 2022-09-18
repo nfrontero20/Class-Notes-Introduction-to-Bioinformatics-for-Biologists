@@ -26,7 +26,7 @@ Commands contain 3 parts:
 * `rmdir`: Stands for "remove directory".  Can only be used to remove empty directories.
 
 ### Wildcards
-* `*`: Represents any number of characters that are wildcards.
+* `*`: Represents 0 or any number of characters that are wildcards.
 * `?`: Represents only one wildcard character.
 
 ### Standard Input, Output and Error
@@ -69,8 +69,8 @@ Commands contain 3 parts:
   - *Using `mv` to move a file to a new location:* (Ex.) `mv science.txt ../`.  This would move `science.txt` to the parent directory.
   - *Using `mv` to rename a file:* `mv science.txt science_is_cool.txt`.  This renames `science.txt` to `science_is_cool.txt`.
 * `grep [options] [search_term] [file_name.file_extension]`:
-  - `-i`: Not sure, but probably stands for **ignore** case.  This option allows you to search for a term and not worry about if it's capitalized or not in the file.
-  - `n`: Not sure, but probably stands for line **number**.  This option provides the line numbers for the lines where the pattern occurs in the file.
+  - `-i`: Not sure, but probably stands for **ignore** case.  This option allows you to search for a term and not worry about if it's capitalized or not in the file.  (Ex.) `grep -i "royal observatory" science.txt`.
+  - `-n`: Not sure, but probably stands for line **number**.  This option provides the line numbers for the lines where the pattern occurs in the file.
   - `-v`: No idea what this stands for.  This option provides the lines that *do not* contain the searched for pattern.  
   - `-c`: Not sure, but probably stands for **count**.  This option returns the number of lines that contain searched for pattern. 
 * `wc [file_name.file_extension]`: Stands for "word count". Returns, from left to right, the number of *lines*, *words*, and *characters*.
@@ -79,6 +79,13 @@ Commands contain 3 parts:
   - `-c`: This option results in only the number of chatacters being printed.
 * `sort`: Sorts the contents of a file.
 * `|`: Referred to as a "pipe".  (Ex.) `head list1 | sort > sorted_list1`
+
+
+### Exercises (from https://github.com/ginerorama/Introduction-to-Bioinformatic-for-Biologists)
+* 3.b. Using pipes, print all lines of list1 and list2 containing the letter 'p', sort the result, and save in a file named exercise3b:
+  - `grep -in "p" list1 list2 | sort > exercise3b`
+
+
 
 ### Other
 
