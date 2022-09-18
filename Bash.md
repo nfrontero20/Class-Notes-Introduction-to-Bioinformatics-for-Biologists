@@ -79,7 +79,7 @@ Commands contain 3 parts:
   - `-c`: This option results in only the number of chatacters being printed.
 * `sort`: Sorts the contents of a file.
 * `|`: Referred to as a "pipe".  (Ex.) `head list1 | sort > sorted_list1`
-
+* `find [search method] [directory from which to start search] [search pattern]`: Used to find files and directories.  (Ex.) `find -name . "*.fasta"` searches according to name starting from the current directory and searches for all files and directories with any number of characters preceeding .fasta.
 
 ### Exercises (from https://github.com/ginerorama/Introduction-to-Bioinformatic-for-Biologists)
 * 3.b. Using pipes, print all lines of list1 and list2 containing the letter 'p', sort the result, and save in a file named exercise3b:
