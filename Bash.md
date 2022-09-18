@@ -52,7 +52,10 @@ Commands contain 3 parts:
     - Note: If you were to write `echo "I like pizza" > my_name.txt`, you would be overwriting what already exists in `my_name.txt` because that file still exists.
   - Append a statement to a pre-existing file: (Ex.) `echo "My last name is Frontero" >> my_name.txt`.
     - Note: In addition to using `>` to create a new file, you can also use `>>` to create a new file. 
-* `cat`: Used to print out the contents of a file to the terminal.  (Ex.) `cat my_name.txt` would print out the contents of `my_name.txt` to the terminal.
+* `cat`: Can be used to...
+  - Print out the contents of a file to the terminal.  (Ex.) `cat my_name.txt` would print out the contents of `my_name.txt` to the terminal.
+  - Create a new file using output redirection.  (Ex.) If you type `cat > list1` and `list1` doesn't exist yet, you will create the list1 file and can add to its contents (you will be able to type in the terminal, and then click control D to get back to the lines of the terminal).
+  - Append to a file using output redirection.  (Ex.) If you wanted to add to `list1`, you could write `cat >> list1` and then type in whatever you want to add to that file, and then click control D. 
 * `less:` Used to print out the contents of a file to the terminal, but the file's contents are only shown one page at a time.  Press "q" on the keyboard to get out of seeing the different pages and return to being able to type in the terminal.  Can also be used to do a simple pattern search in a file.  
   - To do a simple pattern search, type `less [file_name.file_extension]`.  Then, type `/[search_term]`.  The desired search term will be highlighted if it appears in the document.  You can skip to the next occurrence of the search term by pressing "n".  To exit, press "q".
 * `head:` Used to print out the first 10 lines of a file to the terminal.
