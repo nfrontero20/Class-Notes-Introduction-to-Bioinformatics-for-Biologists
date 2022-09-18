@@ -37,7 +37,6 @@ Commands contain 3 parts:
 ### Running List of Commands
 * `clear`:  Clears the console.
 * `date`:  Prints the date.
-* `echo`:  Prints any phrase to the console.
 * `ls`:  Short for "list".  Prints the names of the contents of the working directory, and does not print hidden files (whose names start with a `.`).  
   - `-l`:  Short for "long format".  Provides additional columns, from left to right, file permissions, owner, group, size (bytes), last modification time.
   - `-h`: Provides unit suffixes for file sizes.
@@ -50,6 +49,7 @@ Commands contain 3 parts:
 * `echo`: Can be used to...
   - Print a statement to the terminal: (Ex.) `echo "My first name is Nicole"`.
   - Create a file using output redirection: (Ex.) `echo "My first name is Nicole" > my_name.txt`.
+    - asdfasdf
   - Append a statement to a pre-existing file: (Ex.) `echo "My last name is Frontero" >> my_name.txt`.
 * `cat`: Used to print out the contents of a file to the terminal.  (Ex.) `cat my_name.txt` would print out the contents of `my_name.txt` to the terminal.
 * `less:` Used to print out the contents of a file to the terminal, but the file's contents are only shown one page at a time.  Press "q" on the keyboard to get out of seeing the different pages and return to being able to type in the terminal.  Can also be used to do a simple pattern search in a file.  
